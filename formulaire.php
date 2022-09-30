@@ -72,3 +72,10 @@
 
 
 ?>
+
+if (empty($_POST['classe'])) { // Champs de la Classe
+echo "Erreur de classe" . "<br>";
+}
+else {
+echo "Classe conforme" . "<br>";}
+
